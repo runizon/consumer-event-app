@@ -1,6 +1,15 @@
 :root {
   color: #172026;
-  background: #dff3ff;
+  background:
+    repeating-linear-gradient(
+      135deg,
+      #ff5f6d 0 28px,
+      #ffc371 28px 56px,
+      #fff176 56px 84px,
+      #7bd88f 84px 112px,
+      #64b5f6 112px 140px,
+      #9575cd 140px 168px
+    );
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
